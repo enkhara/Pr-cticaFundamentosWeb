@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesión</title>
 </head>
 <body>
-    <h1>login</h1>
+    <div class="contact" id="contact">
+        <h1>Sign in</h1>
+        <form action="../home.html" method="get" class="contact-form">
+            <label for="name">Usuario:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="password">password:</label>
+            <input type="password" name="password" id="password" required>
+            <input type="button" value="Entrar">
+        </form>
+        <p>
+            <a href="detail.html">Recuperar contraseña</a> 
+        </p>
+
+    </div>
 </body>
 </html>
