@@ -1,0 +1,12 @@
+/* -- importamos fuentes -- */
+
+@font-face {
+    font-family: diver-font;
+    src: url('../fonts/Satisfy-Regular.ttf');
+}
+
+
+h1{
+    font-size: 3rem;
+    font-family: diver-font;
+}
